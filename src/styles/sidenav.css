@@ -1,0 +1,61 @@
+.sidenav{
+    height: 80%;
+    width: 90%;
+    display: block;
+    text-align: center;
+    border-right: solid 1px black;
+}
+
+@media screen and (max-height: 450px) or (max-width: 800px) {
+    .sidenav {
+        padding: 5vh 1vw 5vh 1vw;
+        width: 5%;
+    }
+  }
+
+  .logo {
+    width: 10vw;
+  }
+
+  .name-title {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .info-container {
+    padding-top: 1vh;
+  }
+
+  .links-container {
+    display: inline-block;
+    padding-top: 1vh;
+  }
+
+  .links-container a {
+    padding: 0 5px 0 5px;
+  }
+
+  .nav-container {
+    padding-top: 5vh;
+  }
+
+  .nav-container a{
+    display: block;
+    padding: 2vh 0 2vh 0;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #252525;
+    font-weight: 500;
+  }
+
+  .nav-container a:hover{
+    padding: 2.5vh 0 2.5vh 0;
+    font-weight: 800;
+  }
+
+  .nav-footer {
+    padding-top: 5vh;
+  }
