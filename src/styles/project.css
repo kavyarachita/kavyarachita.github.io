@@ -1,0 +1,76 @@
+.project-summary-container {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.project-summary-container p {
+    margin: 0;
+}
+
+.project-opener-split {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.project-opener-left {
+    float: left;
+    width: 55%;
+}
+
+.project-opener-right {
+    float: right;
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+}
+
+.center-card{
+    justify-content: center;
+    text-align: center;
+    padding: 2px 50px 2px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px lightgrey;
+}
+
+#group-mockup {
+    width: 85%;
+    margin-top: 20px;
+}
+
+.study-space .project h3 {
+    color: var(--red);
+}
+
+.study-space .center-card{
+    background-color: var(--light-red);
+}
+
+.study-space .center-card h5 { 
+    color: var(--dark-red);
+}
+
+.transloc .project h3 {
+    color: var(--dark-yellow);
+}
+
+.transloc .center-card{
+    background-color: var(--light-yellow);
+}
+
+.transloc .center-card h5 { 
+    color: var(--dark-yellow);
+}
+
+.study-buddy .project h3 {
+    color: var(--blue);
+}
+
+.study-buddy .center-card{
+    background-color: var(--light-blue);
+}
+
+.study-buddy .center-card h5 { 
+    color: var(--dark-blue);
+}

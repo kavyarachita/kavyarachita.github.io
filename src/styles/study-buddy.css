@@ -1,0 +1,11 @@
+.study-buddy .project h3 {
+    color: var(--blue);
+}
+
+.study-buddy .center-card{
+    background-color: var(--light-blue);
+}
+
+.study-buddy .center-card h5 { 
+    color: var(--dark-blue);
+}

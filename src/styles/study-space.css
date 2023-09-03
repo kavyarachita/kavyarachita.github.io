@@ -1,0 +1,11 @@
+.study-space .project h3 {
+    color: var(--yellow);
+}
+
+.study-space .center-card{
+    background-color: var(--light-yellow);
+}
+
+.study-space .center-card h5 { 
+    color: var(--dark-yellow);
+}

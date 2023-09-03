@@ -1,0 +1,11 @@
+.transloc .project h3 {
+    color: var(--red);
+}
+
+ .transloc .center-card{
+    background-color: var(--light-red);
+}
+
+.transloc .center-card h5 { 
+    color: var(--dark-red);
+}
