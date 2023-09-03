@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.e50dd94e.js",
-    "static/js/787.37faa4c4.chunk.js": "/static/js/787.37faa4c4.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.e3b01d3c.css",
+    "main.js": "/static/js/main.8d45ef2d.js",
+    "static/media/group-mockup.png": "/static/media/group-mockup.b0033ad97cb12724227d.png",
+    "static/media/home-card-mockup-study-space.png": "/static/media/home-card-mockup-study-space.36b75f2571d735dfcd06.png",
+    "static/media/home-card-mockup-transloc.png": "/static/media/home-card-mockup-transloc.d8e6380e4fae84738926.png",
+    "static/media/home-card-mockup-study-buddy.png": "/static/media/home-card-mockup-study-buddy.3c47c68cb746fca673ee.png",
+    "static/media/home-img.svg": "/static/media/home-img.8149e5d019a2a856731135a6e73cab1d.svg",
+    "static/media/under-construction.png": "/static/media/under-construction.a1fa0c1c22deedce5668.png",
+    "static/media/Resume_Annapareddy_08-2023.pdf": "/static/media/Resume_Annapareddy_08-2023.54d92df03de8ba7fa81a.pdf",
+    "static/media/github-logo.svg": "/static/media/github-logo.06a494bb3b25841423d8a4568ed66a81.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.e50dd94e.js.map": "/static/js/main.e50dd94e.js.map",
-    "787.37faa4c4.chunk.js.map": "/static/js/787.37faa4c4.chunk.js.map"
+    "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.363a8fa55363f73c9377d11fb5a2d6f6.svg",
+    "static/media/mail-logo.svg": "/static/media/mail-logo.e75a3401b986c5612965fcab26548e95.svg",
+    "static/media/dropdown.svg": "/static/media/dropdown.17137c7b319499e617f94f66ec11b9a4.svg",
+    "static/media/hamburger-md.svg": "/static/media/hamburger-md.8e97493956a6e9a7a811ea95c99d2b5f.svg",
+    "main.e3b01d3c.css.map": "/static/css/main.e3b01d3c.css.map",
+    "main.8d45ef2d.js.map": "/static/js/main.8d45ef2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e50dd94e.js"
+    "static/css/main.e3b01d3c.css",
+    "static/js/main.8d45ef2d.js"
   ]
 }
