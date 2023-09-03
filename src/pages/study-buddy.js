@@ -1,46 +1,46 @@
 import React from "react";
-import "../../styles/project.css";
-import "../../styles/app.css";
-import { projectItems } from "../../projectItems";
-import WIP from "../../components/wip";
-import Footer from "../../components/footer";
+import "../styles/project.css";
+import "../styles/app.css";
+import { projectItems } from "../projectItems";
+import WIP from "../components/wip";
+import Footer from "../components/footer";
 
-function ProjectThree() {
+function ProjectTwo() {
 
     return (
-        <div className="page-container project left-align-container study-space">
+        <div className="page-container project left-align-container study-buddy">
             <div className="project-opener-split">
                 <div className="project-opener-left">
-                    <h2>{projectItems[2].title}</h2>
-                    <h3>{projectItems[2].desc}</h3>
+                    <h1>{projectItems[1].title}</h1>
+                    <h3>{projectItems[1].desc}</h3>
                     <div className="project-summary-container">
                         <div >
                             <h5>Timeline</h5>
-                            <p>{projectItems[2].timeLength}</p>
-                            <p>{projectItems[2].timeline}</p>
+                            <p>{projectItems[1].timeLength}</p>
+                            <p>{projectItems[1].timeline}</p>
                         </div>
                         <div>
                             <h5>Team</h5>
-                            {projectItems[2].team.map((content) => (
+                            {projectItems[1].team.map((content) => (
                                 <p>{content}</p>
                             ))}
                         </div>
                         <div>
                             <h5>Role</h5>
-                            {projectItems[2].role.map((content) => (
+                            {projectItems[1].role.map((content) => (
                                 <p>{content}</p>
                             ))}
                         </div>
                         <div>
                             <h5>Location</h5>
-                            <p>{projectItems[2].location}</p>
+                            <p>{projectItems[1].location}</p>
                         </div>
                     </div>
                     <div>
                         <h5>Problem</h5>
-                        <p>{projectItems[2].problem}</p>
+                        <p>{projectItems[1].problem}</p>
                         <div className="center-card">
-                            <h5>{projectItems[2].question}</h5>
+                            <h5>{projectItems[1].question}</h5>
                         </div>
                     </div>
                 </div>
@@ -56,4 +56,4 @@ function ProjectThree() {
         </div>
     );
 }
-export default ProjectThree;
+export default ProjectTwo;

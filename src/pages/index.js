@@ -12,7 +12,7 @@ const Work = () => {
                 </div>
                 <div className="home-div-1">
                     <div className="home-div-2">
-                        <h1>Hi, I'm Kavya!</h1>
+                        <h1>Hi, I'm Kavya :D</h1>
                         <p>[kah-vyah]</p>
                     </div>
                     <p className="paragraph">I'm a Product Designer who <span className="span-1"><strong>designs</strong></span> and <span className="span-2"><strong>codes</strong></span> intuitive and inclusive experiences for <span className="span-3"><strong>communities.</strong></span></p>

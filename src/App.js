@@ -6,9 +6,9 @@ import Work from './pages/index';
 import About from './pages/about';
 import Play from './pages/play';
 import Layout from './components/layout';
-import ProjectOne from './pages/projects/transloc-rd';
-import ProjectTwo from './pages/projects/study-buddy';
-import ProjectThree from './pages/projects/study-space';
+import ProjectOne from './pages/transloc-rd';
+import ProjectTwo from './pages/study-buddy';
+import ProjectThree from './pages/study-space';
 import Resume from './pages/resume';
 
 
