@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3b01d3c.css",
-    "main.js": "/static/js/main.ee3ce17f.js",
+    "main.js": "/static/js/main.dcb23b30.js",
     "static/media/group-mockup.png": "/static/media/group-mockup.b0033ad97cb12724227d.png",
     "static/media/home-card-mockup-study-space.png": "/static/media/home-card-mockup-study-space.36b75f2571d735dfcd06.png",
     "static/media/home-card-mockup-transloc.png": "/static/media/home-card-mockup-transloc.d8e6380e4fae84738926.png",
@@ -16,10 +16,10 @@
     "static/media/dropdown.svg": "/static/media/dropdown.17137c7b319499e617f94f66ec11b9a4.svg",
     "static/media/hamburger-md.svg": "/static/media/hamburger-md.8e97493956a6e9a7a811ea95c99d2b5f.svg",
     "main.e3b01d3c.css.map": "/static/css/main.e3b01d3c.css.map",
-    "main.ee3ce17f.js.map": "/static/js/main.ee3ce17f.js.map"
+    "main.dcb23b30.js.map": "/static/js/main.dcb23b30.js.map"
   },
   "entrypoints": [
     "static/css/main.e3b01d3c.css",
-    "static/js/main.ee3ce17f.js"
+    "static/js/main.dcb23b30.js"
   ]
 }
