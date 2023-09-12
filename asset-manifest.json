@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.493c9ce9.css",
-    "main.js": "/static/js/main.75444139.js",
+    "main.css": "/static/css/main.b7801ddc.css",
+    "main.js": "/static/js/main.0d9646fa.js",
     "static/media/about-img-a.png": "/static/media/about-img-a.69b9e01fe4aa73a4f440.png",
     "static/media/group-mockup.png": "/static/media/group-mockup.b0033ad97cb12724227d.png",
     "static/media/home-card-mockup-study-space-two.png": "/static/media/home-card-mockup-study-space-two.f601a61929432936013b.png",
@@ -11,17 +11,18 @@
     "static/media/home-img.svg": "/static/media/home-img.8149e5d019a2a856731135a6e73cab1d.svg",
     "static/media/under-construction.png": "/static/media/under-construction.a1fa0c1c22deedce5668.png",
     "static/media/Resume_Kavya_Annapareddy_08-2023.pdf": "/static/media/Resume_Kavya_Annapareddy_08-2023.2c882610d4251d0a87e1.pdf",
+    "static/media/sprints.png": "/static/media/sprints.2a825e7f7f96dfa4a10f.png",
     "static/media/github-logo.svg": "/static/media/github-logo.06a494bb3b25841423d8a4568ed66a81.svg",
     "index.html": "/index.html",
     "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.363a8fa55363f73c9377d11fb5a2d6f6.svg",
     "static/media/mail-logo.svg": "/static/media/mail-logo.e75a3401b986c5612965fcab26548e95.svg",
     "static/media/dropdown.svg": "/static/media/dropdown.17137c7b319499e617f94f66ec11b9a4.svg",
     "static/media/hamburger-md.svg": "/static/media/hamburger-md.8e97493956a6e9a7a811ea95c99d2b5f.svg",
-    "main.493c9ce9.css.map": "/static/css/main.493c9ce9.css.map",
-    "main.75444139.js.map": "/static/js/main.75444139.js.map"
+    "main.b7801ddc.css.map": "/static/css/main.b7801ddc.css.map",
+    "main.0d9646fa.js.map": "/static/js/main.0d9646fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.493c9ce9.css",
-    "static/js/main.75444139.js"
+    "static/css/main.b7801ddc.css",
+    "static/js/main.0d9646fa.js"
   ]
 }
