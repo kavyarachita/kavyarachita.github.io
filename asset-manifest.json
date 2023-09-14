@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca561dad.css",
-    "main.js": "/static/js/main.8f7db073.js",
+    "main.css": "/static/css/main.d3d1e931.css",
+    "main.js": "/static/js/main.164271be.js",
     "static/media/about-img-a.png": "/static/media/about-img-a.69b9e01fe4aa73a4f440.png",
     "static/media/home-card-mockup-eduroom-two.png": "/static/media/home-card-mockup-eduroom-two.3cc872cdf757daba27dd.png",
     "static/media/home-card-mockup-transloc-two.png": "/static/media/home-card-mockup-transloc-two.f22f8288ad41372e9b24.png",
-    "static/media/home-card-mockup-study-buddy-two.png": "/static/media/home-card-mockup-study-buddy-two.454768de6e5c10ecc82f.png",
+    "static/media/home-card-mockup-studdy-buddy-two.png": "/static/media/home-card-mockup-studdy-buddy-two.454768de6e5c10ecc82f.png",
     "static/media/home-img.svg": "/static/media/home-img.8149e5d019a2a856731135a6e73cab1d.svg",
     "static/media/under-construction.png": "/static/media/under-construction.a1fa0c1c22deedce5668.png",
     "static/media/Resume_Kavya_Annapareddy_08-2023.pdf": "/static/media/Resume_Kavya_Annapareddy_08-2023.c6b6717955560de116e6.pdf",
@@ -15,17 +15,19 @@
     "static/media/problem.svg": "/static/media/problem.491e52dd7596d708d7b612d172afbd56.svg",
     "index.html": "/index.html",
     "static/media/location.svg": "/static/media/location.f0b830dc79695726a53e44752f666040.svg",
+    "static/media/user.svg": "/static/media/user.04c61ac17066a670b0baec85745a53b6.svg",
+    "static/media/research.svg": "/static/media/research.2a64b2b39217b0a0b38dad7b1bb7b339.svg",
     "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.363a8fa55363f73c9377d11fb5a2d6f6.svg",
     "static/media/mail-logo.svg": "/static/media/mail-logo.e75a3401b986c5612965fcab26548e95.svg",
     "static/media/quote.svg": "/static/media/quote.eb399478a318aadea620f47b96c2531d.svg",
     "static/media/dropdown.svg": "/static/media/dropdown.17137c7b319499e617f94f66ec11b9a4.svg",
     "static/media/duration.svg": "/static/media/duration.e3ec36bc6ce90ab0d6f37b08792303de.svg",
     "static/media/hamburger-md.svg": "/static/media/hamburger-md.8e97493956a6e9a7a811ea95c99d2b5f.svg",
-    "main.ca561dad.css.map": "/static/css/main.ca561dad.css.map",
-    "main.8f7db073.js.map": "/static/js/main.8f7db073.js.map"
+    "main.d3d1e931.css.map": "/static/css/main.d3d1e931.css.map",
+    "main.164271be.js.map": "/static/js/main.164271be.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca561dad.css",
-    "static/js/main.8f7db073.js"
+    "static/css/main.d3d1e931.css",
+    "static/js/main.164271be.js"
   ]
 }
