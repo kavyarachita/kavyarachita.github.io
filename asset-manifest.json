@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f708a3cb.css",
-    "main.js": "/static/js/main.6d83db0c.js",
+    "main.css": "/static/css/main.d0d8c348.css",
+    "main.js": "/static/js/main.002556ec.js",
     "static/media/affinity-map.png": "/static/media/affinity-map.f262e5d9e1ca148118e5.png",
     "static/media/about-img-a.png": "/static/media/about-img-a.69b9e01fe4aa73a4f440.png",
     "static/media/eduroom-mockup.png": "/static/media/eduroom-mockup.2e933eb6a7ad297ea9f7.png",
@@ -30,11 +30,11 @@
     "static/media/dropdown.svg": "/static/media/dropdown.17137c7b319499e617f94f66ec11b9a4.svg",
     "static/media/duration.svg": "/static/media/duration.e3ec36bc6ce90ab0d6f37b08792303de.svg",
     "static/media/hamburger-md.svg": "/static/media/hamburger-md.8e97493956a6e9a7a811ea95c99d2b5f.svg",
-    "main.f708a3cb.css.map": "/static/css/main.f708a3cb.css.map",
-    "main.6d83db0c.js.map": "/static/js/main.6d83db0c.js.map"
+    "main.d0d8c348.css.map": "/static/css/main.d0d8c348.css.map",
+    "main.002556ec.js.map": "/static/js/main.002556ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.f708a3cb.css",
-    "static/js/main.6d83db0c.js"
+    "static/css/main.d0d8c348.css",
+    "static/js/main.002556ec.js"
   ]
 }
