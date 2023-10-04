@@ -1,21 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0d8c348.css",
-    "main.js": "/static/js/main.002556ec.js",
+    "main.css": "/static/css/main.3b6f53c8.css",
+    "main.js": "/static/js/main.47191bb1.js",
     "static/media/affinity-map.png": "/static/media/affinity-map.f262e5d9e1ca148118e5.png",
     "static/media/about-img-a.png": "/static/media/about-img-a.69b9e01fe4aa73a4f440.png",
+    "static/media/v1-hifi.png": "/static/media/v1-hifi.51d8dc65c2a8dec6bd47.png",
     "static/media/eduroom-mockup.png": "/static/media/eduroom-mockup.2e933eb6a7ad297ea9f7.png",
     "static/media/persona.png": "/static/media/persona.34e8bd5a99cc0840464c.png",
     "static/media/student persona.png": "/static/media/student persona.238bf5a81d16316af4f0.png",
     "static/media/transloc-mockup.png": "/static/media/transloc-mockup.a3edd11b0f3ef3bc55c6.png",
     "static/media/home-card-mockup-eduroom-two.png": "/static/media/home-card-mockup-eduroom-two.3cc872cdf757daba27dd.png",
     "static/media/doctor persona.png": "/static/media/doctor persona.825d2e54ca089b040b8d.png",
+    "static/media/brainstorm-3.jpeg": "/static/media/brainstorm-3.ca034d8065d825372049.jpeg",
     "static/media/studdy-buddy-mockup.png": "/static/media/studdy-buddy-mockup.ed0f25f3ebed6fbd3fb1.png",
+    "static/media/brainstorm-2.jpeg": "/static/media/brainstorm-2.becc07647b076fe325c8.jpeg",
+    "static/media/brainstorm-1.jpeg": "/static/media/brainstorm-1.871dd07240408131c2ae.jpeg",
+    "static/media/brainstorm-4.jpeg": "/static/media/brainstorm-4.826490249ef7fd82d8f5.jpeg",
     "static/media/home-card-mockup-transloc-two.png": "/static/media/home-card-mockup-transloc-two.f22f8288ad41372e9b24.png",
     "static/media/home-card-mockup-studdy-buddy-two.png": "/static/media/home-card-mockup-studdy-buddy-two.454768de6e5c10ecc82f.png",
+    "static/media/styleguide.png": "/static/media/styleguide.4b4c752fb9cc240206e1.png",
     "static/media/home-img.svg": "/static/media/home-img.8149e5d019a2a856731135a6e73cab1d.svg",
     "static/media/under-construction.png": "/static/media/under-construction.a1fa0c1c22deedce5668.png",
     "static/media/Resume_Kavya_Annapareddy_08-2023.pdf": "/static/media/Resume_Kavya_Annapareddy_08-2023.c6b6717955560de116e6.pdf",
+    "static/media/v1-main.png": "/static/media/v1-main.4918901e90487076da53.png",
+    "static/media/v1-3.png": "/static/media/v1-3.d3b84969956ee9cf6fda.png",
+    "static/media/v1-2.png": "/static/media/v1-2.5695705f20ced70d0454.png",
+    "static/media/v1-4.png": "/static/media/v1-4.9cbbceaa278902db110a.png",
+    "static/media/v1-mobile-main.png": "/static/media/v1-mobile-main.f2534772606a7ae97dc1.png",
+    "static/media/v1-mobile-main2.png": "/static/media/v1-mobile-main2.6ab727efcb6005073c6e.png",
+    "static/media/v2-profile.png": "/static/media/v2-profile.92e81767c3ca09772da9.png",
+    "static/media/v2-dashv1.png": "/static/media/v2-dashv1.3054b4bf9b93dd37b569.png",
+    "static/media/v1-mobile-search2.png": "/static/media/v1-mobile-search2.582ad0979afe5c0cfdf0.png",
+    "static/media/v2-dashv2.png": "/static/media/v2-dashv2.70984d8bc863d3931981.png",
+    "static/media/v2-favorites.png": "/static/media/v2-favorites.ccec09e4ddd428021c37.png",
+    "static/media/v2-detail.png": "/static/media/v2-detail.306219960501dfbd5183.png",
     "static/media/team.svg": "/static/media/team.83c6531bf5a8f73be8c48a3f1e60fd0f.svg",
     "static/media/role.svg": "/static/media/role.e8fad33404a2f1465539329ce49d6ab5.svg",
     "static/media/github-logo.svg": "/static/media/github-logo.06a494bb3b25841423d8a4568ed66a81.svg",
@@ -30,11 +48,11 @@
     "static/media/dropdown.svg": "/static/media/dropdown.17137c7b319499e617f94f66ec11b9a4.svg",
     "static/media/duration.svg": "/static/media/duration.e3ec36bc6ce90ab0d6f37b08792303de.svg",
     "static/media/hamburger-md.svg": "/static/media/hamburger-md.8e97493956a6e9a7a811ea95c99d2b5f.svg",
-    "main.d0d8c348.css.map": "/static/css/main.d0d8c348.css.map",
-    "main.002556ec.js.map": "/static/js/main.002556ec.js.map"
+    "main.3b6f53c8.css.map": "/static/css/main.3b6f53c8.css.map",
+    "main.47191bb1.js.map": "/static/js/main.47191bb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0d8c348.css",
-    "static/js/main.002556ec.js"
+    "static/css/main.3b6f53c8.css",
+    "static/js/main.47191bb1.js"
   ]
 }
