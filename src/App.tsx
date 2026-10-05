@@ -161,7 +161,9 @@ const hobbies = [
   },
 ];
 
-const PORTFOLIO_PASSWORD = import.meta.env.VITE_PORTFOLIO_PASSWORD;
+const PORTFOLIO_PASSWORD = (import.meta.env.VITE_PORTFOLIO_PASSWORD ?? "").trim();
+const PORTFOLIO_ACCESS_KEY = "portfolio-access";
+const PORTFOLIO_ACCESS_GRANTED = "granted";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -173,7 +175,8 @@ function App() {
     }
 
     return (
-      window.localStorage.getItem("portfolio-access") === PORTFOLIO_PASSWORD
+      window.localStorage.getItem(PORTFOLIO_ACCESS_KEY) ===
+      PORTFOLIO_ACCESS_GRANTED
     );
   });
 
@@ -306,7 +309,7 @@ function App() {
     }
 
     if (enteredPassword === PORTFOLIO_PASSWORD) {
-      window.localStorage.setItem("portfolio-access", PORTFOLIO_PASSWORD);
+      window.localStorage.setItem(PORTFOLIO_ACCESS_KEY, PORTFOLIO_ACCESS_GRANTED);
       setIsUnlocked(true);
       setError("");
       return;
@@ -316,7 +319,7 @@ function App() {
   };
 
   const handleLogout = () => {
-    window.localStorage.removeItem("portfolio-access");
+    window.localStorage.removeItem(PORTFOLIO_ACCESS_KEY);
     setIsUnlocked(false);
     setEnteredPassword("");
     setError("");
