@@ -1,0 +1,44 @@
+KAVYA ANNAPAREDDY
+Haymarket, VA | kavyarachita@gmail.com | 703-944-8078 | LinkedIn | GitHub 
+
+SUMMARY
+Full stack engineer building React/TypeScript applications and Go/Python services, with hands-on experience in Kubernetes, Docker, CI/CD, and cloud infrastructure. Experienced in taking products from design through implementation and deployment, with a UX background focused on turning complex workflows into simple, usable interfaces.
+
+EXPERIENCE
+Full Stack Engineer, Lockheed Martin	Apr 2025 – Present
+•	Designed and built a React/Redux/TypeScript dashboard with a Go REST API, replacing order-dependent deployment scripts with one-click environment deployment and live VM status tracking; cut deployment time from 30 minutes to 15 minutes.
+•	Built a responsive React/TypeScript storefront with a Go backend and PostgreSQL in 2–3 weeks using Figma and AI-assisted development; adopted by another team following a customer demo
+•	Extended a customer-facing Angular application with a responsive theme system and AI-compatible theme generator, replacing hardcoded styles with reusable theming components.
+•	Co-developed a shared JavaScript authentication package built around Keycloak that detects existing sessions, propagates JWTs to downstream services, and enforces role-based access control.
+•	Built Go services that deploy applications to provisioned VMs from user-uploaded specs and surface live status in the dashboard
+•	Designed a Go VM health manager that detects and automatically remediates failed VMs through restart, reprovisioning, or escalation, restoring service within ~5 minutes.
+Go, TypeScript, React, Redux, Angular, PostgreSQL, Keycloak, Kubernetes, Helm, GitLab CI/CD, Ansible, Figma
+
+
+DevSecOps Engineer, Lockheed Martin	Jan 2024 – Mar 2025
+•	Designed in Figma and shipped a ServiceNow onboarding workflow that replaced multiple forms and overlapping approvals with a single form and is now the program's standard process. Cut onboarding overhead time by ~1 day.
+•	Built a Django dashboard for OpenStack VM status, extending the backend to retrieve, sort, and display VM data for a ~100-person team
+•	Automated recovery for Jenkins, Gerrit, and Artifactory using Bash and Ansible, supporting 500+ developers across 5+ programs; provided tier-2 and on-call production support.
+•	Deployed Rancher across 3 Kubernetes clusters in an offline network using approved registries and Helm charts
+Python, Django, Ansible, Bash, OpenStack, Kubernetes, Rancher, Jenkins
+
+
+Software Engineer Intern, Lockheed Martin	May 2021 – Oct 2022
+•	Developed JavaFX tools for annotating sensor data and flagging maintenance errors, used by 50+ people
+
+PROJECTS
+•	Guideroom (React, Flask, Open3D | Hackathon ): Web app that rates room accessibility from iPad LiDAR scans, using point-cloud algorithms to detect floors, count stairs, and analyze surfaces
+•	Study Buddy (Django, PostgreSQL on AWS | Course project ): Deployed web app for students to form study groups and schedule meetings
+•	Janko Whiteboard (Django Channels, WebSockets, Redis | Hackathon ): Real-time collaborative whiteboard with live chat and PNG export, deployed on Heroku
+
+SKILLS
+Languages: Java, Go, TypeScript, JavaScript, Python, Bash, SQL
+Frontend: React, Redux, Angular, HTML, CSS/SCSS
+Backend: REST APIs, Django, PostgreSQL, Keycloak, JWT auth, RBAC
+Infrastructure: Kubernetes, Docker, Helm, Ansible, GitLab CI/CD, Jenkins, Rancher, Linux
+Other: Git, Figma, AI-assisted development
+
+EDUCATION
+M.Eng, Computer Science, Virginia Tech	May 2026
+B.S., Computer Science, University of Virginia	Dec 2023
+
