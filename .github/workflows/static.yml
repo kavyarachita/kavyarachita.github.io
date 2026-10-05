@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VITE_PORTFOLIO_PASSWORD: ${{ secrets.VITE_PORTFOLIO_PASSWORD }}
+      VITE_PORTFOLIO_LOCKOUT_ENABLED: ${{ secrets.VITE_PORTFOLIO_LOCKOUT_ENABLED }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

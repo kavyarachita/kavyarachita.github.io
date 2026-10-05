@@ -162,6 +162,8 @@ const hobbies = [
 ];
 
 const PORTFOLIO_PASSWORD = (import.meta.env.VITE_PORTFOLIO_PASSWORD ?? "").trim();
+const PORTFOLIO_LOCKOUT_ENABLED =
+  (import.meta.env.VITE_PORTFOLIO_LOCKOUT_ENABLED ?? "false").trim() === "true";
 const PORTFOLIO_ACCESS_KEY = "portfolio-access";
 const PORTFOLIO_ACCESS_GRANTED = "granted";
 
@@ -170,7 +172,15 @@ function App() {
   const [enteredPassword, setEnteredPassword] = useState("");
   const [error, setError] = useState("");
   const [isUnlocked, setIsUnlocked] = useState(() => {
-    if (typeof window === "undefined" || !PORTFOLIO_PASSWORD) {
+    if (typeof window === "undefined") {
+      return false;
+    }
+
+    if (!PORTFOLIO_LOCKOUT_ENABLED) {
+      return true;
+    }
+
+    if (!PORTFOLIO_PASSWORD) {
       return false;
     }
 
@@ -302,6 +312,12 @@ function App() {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+
+    if (!PORTFOLIO_LOCKOUT_ENABLED) {
+      setIsUnlocked(true);
+      setError("");
+      return;
+    }
 
     if (!PORTFOLIO_PASSWORD) {
       setError("Portfolio password is not configured.");
