@@ -126,7 +126,7 @@ const hobbies = [
   {
     title: "Rock climbing",
     detail:
-      "Love to boulder with friends. I can only climb up to v4s, for now :)",
+      "Love to boulder with friends. I can climb up to v3s, for now :)",
     accent: "red",
   },
   {
