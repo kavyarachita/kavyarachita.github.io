@@ -15,7 +15,6 @@ type Project = {
   name: string;
   description: string;
   tags: string[];
-  link: string;
 };
 
 const experience: Experience[] = [
@@ -24,14 +23,16 @@ const experience: Experience[] = [
     company: "Lockheed Martin",
     period: "Apr 2025 – Present",
     bullets: [
-      "Built a dashboard in React with a Go REST API backend for one-click VM deployment with VM monitoring and service health tracking; cut deployment time from ~30 minutes to 15.",
-      "Shipped a responsive storefront built in Reactbacked by a Golang and PostgreSQL.",
+      "Built a React dashboard with a Go REST API to replace lengthy deployment processes with one-click environment deployment and live VM status tracking",
+      "Developed a responsive storefront in React with a Go REST API and PostgreSQL Database using AI-Assisted Developement",
+      "Designed a Go VM health manager that detects service heartbeats and automatically remediates failed VMs",
+      "Built Go services that deploy applications to VMs from user-uploaded specs and display live status in the dashboard",
       "Extended a customer Angular Application with a responsive theme system and AI-compatible theme generator, replacing hardcoded styles with reusable theming components.",
     ],
     stack: [
-      "Go",
-      "TypeScript",
       "React",
+      "TypeScript",
+      "Go",
       "Redux",
       "Angular",
       "PostgreSQL",
@@ -48,10 +49,11 @@ const experience: Experience[] = [
     company: "Lockheed Martin",
     period: "Jan 2024 – Mar 2025",
     bullets: [
-      "Prototyped a ServiceNow onboarding flow designed in figma that standardized approvals and reduced onboarding overhead by about a day.",
-      "Built Django dashboards for VM status in Openstack",
+      "Prototyped a ServiceNow onboarding flow designed in Figma that standardized approvals and reduced onboarding overhead by about a day.",
+      "Extended an OpenStack dashboard to retrieve and display VM data using Django",
       "Automated recovery across Jenkins, Gerrit, and Artifactory for a 500+ developer environment via bash scripts.",
       "Managed Rancher deployments across multiple Kubernetes clusters in an offline environment using approved registries and Helm charts.",
+      "Participated in Daily Scrum, Bi-weekly sprint planning, retrospectives and customer demos. Utilized Jira and Confluence"
     ],
     stack: [
       "Python",
@@ -61,7 +63,6 @@ const experience: Experience[] = [
       "OpenStack",
       "Kubernetes",
       "Rancher",
-      "Jenkins",
     ],
   },
   {
@@ -69,64 +70,70 @@ const experience: Experience[] = [
     company: "Lockheed Martin",
     period: "May 2021 – Oct 2022",
     bullets: [
-      "Developed JavaFX utilities for sensor-data annotation and maintenance issue detection used by 50+ team members.",
+      "Developed UI features to flag maintenance errors using JavaFX to improve error visibility",
+      "Implemented an annotation tool for sensor data to enhance pattern recognition for operators"
     ],
-    stack: ["Java", "JavaFX"],
+    stack: ["Java", "JavaFX", "Python", "Visual Studio Code", "Jira", "Confluence"],
   },
 ];
 
 const projects: Project[] = [
   {
-    name: "Guideroom",
+    name: "Books Ahoy! Online Bookstore",
     description:
-      "Web app that rates room accessibility from iPad LiDAR scans, using point-cloud algorithms to detect floors, count stairs, and analyze surfaces.",
-    tags: ["React", "Flask", "Open3D", "Hackathon"],
-    link: "https://devpost.com/software/guideroom",
+      "Developed a bookstore web app with catalog browsing, cart management, checkout, and order confirmation using React, TypeScript, Java, and MySQL backed by Java RESTful APIs built using Jersey for catalog and transaction data.",
+    tags: ["React", "TypeScript", "Java", "Jersey", "REST APIs", "MySQL"],
+  },
+  {
+    name: "Gallery App",
+    description:
+      "Built an Android photo gallery app that fetches Flickr images, displays them in a grid, and lets users explore photos on a map and view details in-app.",
+    tags: ["Android", "Kotlin", "RetroFit", "Jetpack Navigation"],
   },
   {
     name: "Study Buddy",
     description:
-      "Deployed web app for students to form study groups and schedule meetings.",
-    tags: ["Django", "PostgreSQL", "AWS", "Course project"],
-    link: "https://github.com/kavyarachita/studdy-buddy-s22",
-  },
-  {
-    name: "Janko Whiteboard",
-    description:
-      "Real-time collaborative whiteboard with live chat and PNG export, deployed on Heroku.",
-    tags: ["Django Channels", "WebSockets", "Redis", "Hackathon"],
-    link: "https://devpost.com/software/janko-collaborative-whiteboard",
+      "Developed a student study‑group platform with course roster imports, event scheduling with calendar integration, user profiles, friend requests, messaging, notifications, image uploads, and Google OAuth authentication.",
+    tags: ["Django", "PostgreSQL", "Heroku", "Google OAuth"],
   },
 ];
 
-const skills = {
-  Languages: [
-    "Java",
-    "Go",
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "Bash",
-    "SQL",
-  ],
-  Frontend: ["React", "Redux", "Angular", "HTML", "CSS/SCSS"],
-  Backend: ["REST APIs", "Django", "PostgreSQL", "Keycloak"],
-  Infrastructure: [
-    "Kubernetes",
-    "Docker",
-    "Helm",
-    "Ansible",
-    "GitLab CI/CD",
-    "Rancher",
-  ],
-  Other: ["Git", "Figma", "AI-assisted development"],
-};
+type TechItem = { name: string; level: string };
+type TechGroup = { title: string; items: TechItem[] };
+
+const techStackGroups: TechGroup[] = [
+  {
+    title: "Languages",
+    items: [
+      { name: "Java", level: "Very Proficient" },
+      { name: "JS", level: "Very Proficient" },
+      { name: "HTML", level: "Very Proficient" },
+      { name: "CSS/SCSS", level: "Very Proficient" },
+      { name: "Golang", level: "Proficient" },
+      { name: "Python", level: "Proficient" },
+      { name: "Kotlin", level: "Proficient" },
+      { name: "Bash", level: "Proficient" },
+    ],
+  },
+  {
+    title: "Frameworks & Tools",
+    items: [
+      { name: "React", level: "Very Proficient" },
+      { name: "Django", level: "Very Proficient" },
+      { name: "Docker", level: "Very Proficient" },
+      { name: "Git & Gitlab CI/CD", level: "Very Proficient" },
+      { name: "Kubernetes/Helm", level: "Proficient" },
+      { name: "Figma", level: "Proficient" },
+      { name: "Agile & Scrum", level: "Proficient" },
+      { name: "Angular", level: "Intermediate" },
+    ],
+  },
+];
 
 const hobbies = [
   {
     title: "Rock climbing",
-    detail:
-      "Love to boulder with friends. I can climb up to v3s, for now :)",
+    detail: "Love to boulder with friends. I can climb up to v3s, for now :)",
     accent: "red",
   },
   {
@@ -137,8 +144,7 @@ const hobbies = [
   },
   {
     title: "Tea-lover",
-    detail:
-      "Love me a matcha latte and new tea leaves. Favorite Tea: Jasmine",
+    detail: "Love me a matcha latte and new tea leaves. Favorite Tea: Jasmine",
     accent: "yellow",
   },
   {
@@ -161,14 +167,16 @@ const hobbies = [
   },
 ];
 
-const PORTFOLIO_PASSWORD = (import.meta.env.VITE_PORTFOLIO_PASSWORD ?? "").trim();
+const PORTFOLIO_PASSWORD = (
+  import.meta.env.VITE_PORTFOLIO_PASSWORD ?? ""
+).trim();
 const PORTFOLIO_LOCKOUT_ENABLED =
   (import.meta.env.VITE_PORTFOLIO_LOCKOUT_ENABLED ?? "false").trim() === "true";
 const PORTFOLIO_ACCESS_KEY = "portfolio-access";
 const PORTFOLIO_ACCESS_GRANTED = "granted";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [enteredPassword, setEnteredPassword] = useState("");
   const [error, setError] = useState("");
   const [isUnlocked, setIsUnlocked] = useState(() => {
@@ -325,7 +333,10 @@ function App() {
     }
 
     if (enteredPassword === PORTFOLIO_PASSWORD) {
-      window.localStorage.setItem(PORTFOLIO_ACCESS_KEY, PORTFOLIO_ACCESS_GRANTED);
+      window.localStorage.setItem(
+        PORTFOLIO_ACCESS_KEY,
+        PORTFOLIO_ACCESS_GRANTED,
+      );
       setIsUnlocked(true);
       setError("");
       return;
@@ -391,8 +402,9 @@ function App() {
         </div>
         <nav>
           <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
           <a href="#hobbies">Hobbies</a>
         </nav>
         <div className="header-actions">
@@ -462,16 +474,38 @@ function App() {
               </div>
             </div>
             <div className="contact-list" aria-label="Contact links">
-              <a href="mailto:kavyarachita@gmail.com" className="contact-link" aria-label="Email Kavya">
-                <span className="contact-icon" aria-hidden="true">✉</span>
+              <a
+                href="mailto:kavyarachita@gmail.com"
+                className="contact-link"
+                aria-label="Email Kavya"
+              >
+                <span className="contact-icon" aria-hidden="true">
+                  ✉
+                </span>
                 <span>Email</span>
               </a>
-              <a href="https://www.linkedin.com/in/kavya-annapareddy-0209021b5" target="_blank" rel="noreferrer" className="contact-link" aria-label="LinkedIn profile">
-                <span className="contact-icon" aria-hidden="true">in</span>
+              <a
+                href="https://www.linkedin.com/in/kavya-annapareddy-0209021b5"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+                aria-label="LinkedIn profile"
+              >
+                <span className="contact-icon" aria-hidden="true">
+                  in
+                </span>
                 <span>LinkedIn</span>
               </a>
-              <a href="https://github.com/kavyarachita" target="_blank" rel="noreferrer" className="contact-link" aria-label="GitHub profile">
-                <span className="contact-icon" aria-hidden="true">gh</span>
+              <a
+                href="https://github.com/kavyarachita"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+                aria-label="GitHub profile"
+              >
+                <span className="contact-icon" aria-hidden="true">
+                  gh
+                </span>
                 <span>GitHub</span>
               </a>
             </div>
@@ -519,6 +553,50 @@ function App() {
           </div>
         </section>
 
+        <section id="skills" className="section-block">
+          <div className="section-heading">
+            <span className="eyebrow">Skills</span>
+            <h2>My tech stack.</h2>
+          </div>
+
+          <div className="skills-grid tech-grid">
+            {techStackGroups.map((group) => (
+              <div key={group.title} className="skill-group tech-group">
+                <h3>{group.title}</h3>
+                <div className="tech-list">
+                  {group.items.map((t) => (
+                    <div key={t.name} className="tech-item">
+                      <span className="tech-name">{t.name}</span>
+                      <span className="tech-level">{t.level}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section id="education"className="section-block education">
+          <div className="section-heading">
+            <span className="eyebrow">Education</span>
+            <h2>Academic background.</h2>
+          </div>
+          <div className="education-card">
+            <div>
+              <h3>M.Eng, Computer Science</h3>
+              <p>Virginia Tech</p>
+            </div>
+            <span>May 2026</span>
+          </div>
+          <div className="education-card">
+            <div>
+              <h3>B.S., Computer Science</h3>
+              <p>University of Virginia</p>
+            </div>
+            <span>Dec 2023</span>
+          </div>
+        </section>
+
         <section id="projects" className="section-block">
           <div className="section-heading">
             <span className="eyebrow">Projects</span>
@@ -530,9 +608,6 @@ function App() {
               <article key={project.name} className="project-card">
                 <div className="project-topline">
                   <h3>{project.name}</h3>
-                  <a href={project.link} target="_blank" rel="noreferrer" className="project-link" aria-label={`Open ${project.name} project`}>
-                    Link
-                  </a>
                 </div>
                 <p>{project.description}</p>
                 <div className="tag-row">
@@ -543,28 +618,6 @@ function App() {
                   ))}
                 </div>
               </article>
-            ))}
-          </div>
-        </section>
-
-        <section id="skills" className="section-block">
-          <div className="section-heading">
-            <span className="eyebrow">Skills</span>
-            <h2>My tech stack.</h2>
-          </div>
-
-          <div className="skills-grid">
-            {Object.entries(skills).map(([category, items]) => (
-              <div key={category} className="skill-group">
-                <h3>{category}</h3>
-                <div className="tag-row">
-                  {items.map((item) => (
-                    <span key={item} className="tag">
-                      {item}
-                    </span>
-                  ))}
-                </div>
-              </div>
             ))}
           </div>
         </section>
@@ -590,27 +643,6 @@ function App() {
                 <p>{hobby.detail}</p>
               </article>
             ))}
-          </div>
-        </section>
-
-        <section className="section-block education">
-          <div className="section-heading">
-            <span className="eyebrow">Education</span>
-            <h2>Academic background.</h2>
-          </div>
-          <div className="education-card">
-            <div>
-              <h3>M.Eng, Computer Science</h3>
-              <p>Virginia Tech</p>
-            </div>
-            <span>May 2026</span>
-          </div>
-          <div className="education-card">
-            <div>
-              <h3>B.S., Computer Science</h3>
-              <p>University of Virginia</p>
-            </div>
-            <span>Dec 2023</span>
           </div>
         </section>
 

@@ -634,6 +634,13 @@ nav {
 
 .project-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 1fr; /* make rows distribute available height so cards match */
+  align-items: stretch;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
 }
 
 .project-topline {
@@ -669,10 +676,43 @@ nav {
   color: var(--muted);
   line-height: 1.8;
   margin: 0.85rem 0 0;
+  flex: 1; /* allow description to take available space so tags sit at the bottom */
 }
 
 .skills-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.tech-grid {
+  gap: 1.2rem;
+}
+
+.tech-group .tech-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-top: 0.6rem;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.8rem;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--card-ring);
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.tech-name {
+  color: var(--text);
+}
+
+.tech-level {
+  color: var(--text-yellow);
+  font-size: 0.85rem;
 }
 
 .hobby-grid {
@@ -754,10 +794,6 @@ nav {
 .hobby-card-yellow .hobby-icon {
   background: rgba(252, 195, 47, 0.18);
   color: #8b5a12;
-}
-
-.education {
-  padding-bottom: 5rem;
 }
 
 .education-card {
